@@ -11,7 +11,7 @@ class Anagram
   end
   def self.match(array)
     word = self.new
-    word.array =
+    word.array = array
     
   end 
   
