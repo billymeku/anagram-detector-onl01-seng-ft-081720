@@ -11,7 +11,7 @@ class Anagram
   end
   def self.match(word)
     word = self.new
-    
+    word
     
   end 
   
