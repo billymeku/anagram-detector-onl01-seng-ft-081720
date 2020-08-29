@@ -9,8 +9,9 @@ class Anagram
    def self.all
     @@all
   end
-  def self.match()
-    word = self.new 
+  def self.match(word)
+    word = self.new
+    
     
   end 
   
