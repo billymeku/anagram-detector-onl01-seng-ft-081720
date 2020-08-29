@@ -10,10 +10,10 @@ class Anagram
     @@all
   end
   
-  # def self.match(array)
-  #   word = self.new
-  #   word.array = array
-  # end
+  def self.match(array)
+    word = self.new
+    word.array = array
+  end
   
   
 end 
