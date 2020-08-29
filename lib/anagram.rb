@@ -7,10 +7,8 @@ class Anagram
   end 
   
   def self.match(array)
-    word = self.new
-    word.array = array
-  words.each do |wordy_words|
-      if wordy_words.split("").sort == word.split("").sort
+  array.each do |arr|
+      if arr.split("").sort == .split("").sort
         anagram << wordy_words
       end
     end
