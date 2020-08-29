@@ -1,11 +1,12 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word 
+  attr_accessor :word
+  @@all = []
   def initialze(word)
     @word = word 
   end 
   
-  def match 
+  def self.match 
     
   end 
   
