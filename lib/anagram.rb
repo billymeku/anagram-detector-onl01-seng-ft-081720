@@ -10,6 +10,7 @@ class Anagram
     @@all
   end
   def self.match 
+    word = self.new 
     
   end 
   
